@@ -2,7 +2,7 @@ package lesson_3_operatos_loops.operators;
 
 import java.util.Scanner;
 
-public class JavaOperators {
+public class OperatorsJava {
     public static void main(String[] args){
         // Basic operators
         // Есть три логических оператора в Джава

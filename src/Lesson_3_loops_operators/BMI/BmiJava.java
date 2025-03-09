@@ -2,7 +2,7 @@ package lesson_3_operatos_loops.BMI;
 
 import java.util.Scanner;
 
-public class BMI {
+public class BmiJava {
     public static void main(String[] args){
         // Start & calculate BMI
         startBMI();
