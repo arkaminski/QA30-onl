@@ -9,8 +9,8 @@ public class Task1 {
 
     public static void setMonthNumber() {
         System.out.println("Enter number from 1 to 12, to find out what season a month belongs to");
-        Scanner scanner = new Scanner(System.in);
-        String month = scanner.nextLine();
+        Scanner scan = new Scanner(System.in);
+        String month = scan.nextLine();
         getMonthNumber(month);
     }
 
