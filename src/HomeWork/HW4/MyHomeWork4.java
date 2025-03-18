@@ -54,18 +54,26 @@ public class MyHomeWork4 {
             if ((length = new Scanner(System.in).nextInt()) < 15) break;
         } while (true);
 
+        int count = 0;
+
+        for(int i = 0; i < array.length; i++){
+            if(length != array[i]){
+                count++;
+            }
+        }
+        if(count == array.length){
+            System.out.println("Entered value not exist");
+            return;
+        }
         for(int i = 0; i < array.length; i++){
             if(array[i] != length){
                 arrayWithoutValue[i] = array[i];
-            } else continue;
-
+            }
         }
         for (int el : arrayWithoutValue) {
-            System.out.print(el + "\t");
+            System.out.print(el + "\t");{
+                       }
         }
-
-
-
     }
 
 
