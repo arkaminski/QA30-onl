@@ -2,7 +2,7 @@ package lesson_6_objects_game.tictactoe;
 
 import java.util.Scanner;
 
-public class GameTacTacToe {
+public class GameTicTacToe {
     public static void main(String[] args) {
         // Start Game
         startGame();
