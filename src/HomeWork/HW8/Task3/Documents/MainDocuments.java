@@ -13,7 +13,7 @@ public class MainDocuments {
         try {
             GoodsContract goodsContract = new GoodsContract("ab1234", new Date(), "123", 10);
             ContractEmployee employeeContract = new ContractEmployee("555test", new Date(), 55432, new Date(), "Pupkin");
-            Invoice invoice = new Invoice("ends on 1a2", new Date(), 5000.0, "1231");
+            Invoice invoice = new Invoice("ends on 1a2v", new Date(), 5000.0, "1231");
 
             checkDocumentNumber(goodsContract.getDocumentNumber());
             checkDocumentNumber(employeeContract.getDocumentNumber());
